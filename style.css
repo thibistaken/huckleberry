@@ -9,4 +9,15 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+.max-width-wrapper {
+  margin: 96px auto;
+  width:900px
+}
+
+.intro-chunk {
+  width: 40%;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%)
+}
