@@ -10,7 +10,8 @@ body {
 }
 
 .max-width-wrapper {
-  margin: 96px auto;
+  margin: 0 auto;
+  padding: 64px 16px;
   width:900px
 }
 
@@ -20,4 +21,27 @@ body {
 
 strong {
   color: hsl(160deg, 100%, 30%)
+}
+
+header {
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+}
+
+.card {
+  background-color: hsl(0deg, 100%, 100%);
+  padding: 24px;
+  width: ;
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  padding: 16px 32px;
+  width: max-content;
+  margin-top: -8px;
+  margin-left: -32px;
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
 }
